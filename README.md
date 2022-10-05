@@ -109,9 +109,9 @@ show all commits in the current branch’s history
 - git Init :leftwards_arrow_with_hook:
 - git status :leftwards_arrow_with_hook:
 - git add . :leftwards_arrow_with_hook:
-- git commit -u -f origin master :leftwards_arrow_with_hook:
+- git commit -m "initial commit" :leftwards_arrow_with_hook:
 - git remote add origin https://github.com/ravikoppula/projectname.git
-- git push :leftwards_arrow_with_hook:
+-  git push --set-upstream origin master :leftwards_arrow_with_hook:
 - Log on to GITHUB account and refresh the repository to view all the commited files.
 ```
 
